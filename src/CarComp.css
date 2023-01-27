@@ -1,0 +1,17 @@
+.car-outer-container {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding: 0.5em;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    margin: 20px;
+}
+
+.car-outer-container img {
+    width: 25vw
+}
+
+.center {
+    align-items: center;
+}
