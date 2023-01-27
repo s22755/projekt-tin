@@ -8,6 +8,8 @@ function CarComponent(props) {
             </div>
             <div>
                 <h3>{props.carName}</h3>
+            </div>
+            <div>
                 <p>{props.carDesc}</p>
             </div>
             <div>

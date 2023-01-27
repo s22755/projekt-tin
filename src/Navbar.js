@@ -1,8 +1,8 @@
 import './Navbar.css';
 
-function Navbar() {
+function Navbar(props) {
     return (
-        <div className="navbar">
+        <div id={props.id} className="navbar">
             <h1>SUPER SAMOCHODY EKSTRAKLASA BMW</h1>
         </div>
     );
